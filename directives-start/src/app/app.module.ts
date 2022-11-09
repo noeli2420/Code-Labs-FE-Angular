@@ -12,7 +12,8 @@ import { BetterHightlightDirective } from './better-highlights/better-hightlight
   declarations: [
     AppComponent,
     BasicHighLightDirective,
-    BetterHightlightDirective
+    BetterHightlightDirective,
+
   ],
   imports: [
     BrowserModule,
