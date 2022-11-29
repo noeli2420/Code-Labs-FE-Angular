@@ -8,8 +8,8 @@ import { Clothe } from '../../clothes.model';
   styleUrls: ['./clothe-item.component.css']
 })
 export class ClotheItemComponent implements OnInit {
-  @Input() recipe: Clothe;
-  @Output() recipeSelected = new EventEmitter<void>();
+  @Input() clothe: Clothe;
+  @Output() clotheSelected = new EventEmitter<void>();
 
   constructor() { }
 
@@ -17,7 +17,7 @@ export class ClotheItemComponent implements OnInit {
   }
 
   onSelected() {
-    this.recipeSelected.emit();
+    this.clotheSelected.emit();
   }
 
 }

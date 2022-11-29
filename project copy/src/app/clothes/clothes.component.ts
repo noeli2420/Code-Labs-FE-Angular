@@ -8,7 +8,7 @@ import { Clothe } from './clothes.model';
   styleUrls: ['./clothes.component.css']
 })
 export class ClothesComponent implements OnInit {
-  selectedRecipe: Clothe;
+  selectedClothe: Clothe;
 
   constructor() { }
 
