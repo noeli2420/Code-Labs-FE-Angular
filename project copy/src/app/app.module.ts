@@ -10,6 +10,8 @@ import { DropdownDirective } from './shared/dropdown.directive';
 import { TopsComponent } from './clothes/tops/tops.component';
 import { BottomsComponent } from './clothes/bottoms/bottoms.component';
 import { ClotheItemComponent } from './clothes/bottoms/clothe-item/clothe-item.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +20,14 @@ import { ClotheItemComponent } from './clothes/bottoms/clothe-item/clothe-item.c
     ClothesComponent,
     TopsComponent,
     BottomsComponent,
-    ClotheItemComponent
+    ClotheItemComponent,
+
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
