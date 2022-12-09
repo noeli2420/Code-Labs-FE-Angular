@@ -12,6 +12,7 @@ import { BottomsComponent } from './clothes/bottoms/bottoms.component';
 import { ClotheItemComponent } from './clothes/bottoms/clothe-item/clothe-item.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent,
